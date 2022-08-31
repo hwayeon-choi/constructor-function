@@ -1,4 +1,4 @@
-export default function numbers(one, two, three) {
+function numbers(one, two, three) {
   if(typeof(one) === "number" 
     && typeof(two) === "number" 
     && typeof(three) === "number") {
@@ -8,5 +8,5 @@ export default function numbers(one, two, three) {
   }
 }
 
-const objectData = new numbers(10,12,13);
+const objectData = new numbers(10, 12, 13);
 console.log(objectData);
